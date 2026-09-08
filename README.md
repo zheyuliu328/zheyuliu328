@@ -18,6 +18,7 @@ Independent validation experiments built from public methods and fully synthetic
 - **Evidence:** runnable tests, generated reports, complete inputs and explicit limitations.
 
 [Read the experiment report](https://github.com/zheyuliu328/model-risk-lab/blob/main/docs/sample/REPORT.md) ·
+[See what the second review caught](https://github.com/zheyuliu328/model-risk-lab/blob/main/docs/REVALIDATION.md) ·
 [Read the methods](https://github.com/zheyuliu328/model-risk-lab/tree/main/docs) ·
 [Run it locally](https://github.com/zheyuliu328/model-risk-lab#run-locally)
 
@@ -45,7 +46,8 @@ and are not presented here as original implementations.
 3. Retain negative results and failure cases, with enough evidence to reproduce them.
 4. Separate implementation checks from real-world suitability and approval.
 
-My public experiments use documented public methods and invented data. Professional/client files,
+The featured validation experiments use public methods and invented inputs. Older projects document
+their data sources and unverified legacy assets in their status notes. Professional/client files,
 code, templates and confidential outputs remain outside this portfolio. The projects are educational;
 they do not imply employer endorsement or regulatory approval. AI-assisted development is disclosed
 in the projects where used; explanation, review and reproducibility remain part of the work.
