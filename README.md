@@ -2,12 +2,26 @@
 
 ### Model validation · Credit and market risk · Reproducible analytics
 
-I build inspectable experiments that connect financial theory, data quality and software testing.
+I build local tools and inspectable experiments that connect financial theory, data quality and software testing.
 My focus is understanding **what a model result proves, how it can fail, and how to reproduce it**.
 
 MSc in Risk Management Science and Data Analytics, The Chinese University of Hong Kong · July 2026.
 
 ## Start here
+
+### [Forecast Review Workbench](https://github.com/zheyuliu328/forecast-review-workbench)
+
+A working local browser tool for reviewing supplied CSV and Excel forecasts. Select your own files,
+map their columns, inspect missing periods and conflicting definitions, then compare candidates on
+an explicitly accepted common sample. Record your reasoning and download an offline evidence bundle.
+
+The first release includes 89 passing Python tests and a real-file browser workflow with independent
+CSV recomputation. Independent human usability testing remains open. It does not train models or
+infer training independence from prediction files.
+
+[Open and use the tool](https://github.com/zheyuliu328/forecast-review-workbench#open-the-tool) ·
+[See the interface and verification](https://github.com/zheyuliu328/forecast-review-workbench/blob/main/docs/VALIDATION.md) ·
+[中文使用指南](https://github.com/zheyuliu328/forecast-review-workbench/blob/main/docs/QUICKSTART.zh-CN.md)
 
 ### [Model Risk Lab](https://github.com/zheyuliu328/model-risk-lab)
 
@@ -32,7 +46,7 @@ their assumptions and edge cases. A reproducible offline example accompanies the
 | Project | Area | Where to look |
 |:--|:--|:--|
 | [CreditOne](https://github.com/zheyuliu328/algorithmic-credit-risk-engine) | Credit-scoring and data-processing prototypes | [Verified scope and remaining work](https://github.com/zheyuliu328/algorithmic-credit-risk-engine/blob/master/docs/PORTFOLIO_STATUS.md) |
-| [Financial Control Tower](https://github.com/zheyuliu328/financial-control-tower) | Reconciliation and audit-rule demonstrations | [Verified scope and remaining work](https://github.com/zheyuliu328/financial-control-tower/blob/main/docs/PORTFOLIO_STATUS.md) |
+| [Financial Control Tower](https://github.com/zheyuliu328/financial-control-tower) | CSV/Excel reconciliation, field mapping, tolerances and readable reports | [Table comparison guide](https://github.com/zheyuliu328/financial-control-tower/blob/main/docs/table-comparison.md) |
 | [Signal Foundry](https://github.com/zheyuliu328/signal-foundry) | Local-first information tooling | [Project overview](https://github.com/zheyuliu328/signal-foundry#readme) |
 
 These projects have different levels of maturity. Their status records distinguish working examples,
@@ -52,5 +66,5 @@ code, templates and confidential outputs remain outside this portfolio. The proj
 they do not imply employer endorsement or regulatory approval. AI-assisted development is disclosed
 in the projects where used; explanation, review and reproducibility remain part of the work.
 
-**Currently improving:** data-release timing, synthetic robustness experiments and numerical diagnostics.
+**Next validation:** independent human use of the forecast tool; data-release timing and synthetic robustness experiments remain separate follow-up work.
 [Follow the next experiments](https://github.com/zheyuliu328/model-risk-lab/blob/main/ROADMAP.md).
