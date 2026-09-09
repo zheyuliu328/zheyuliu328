@@ -51,7 +51,7 @@ their assumptions and edge cases. A reproducible offline example accompanies the
 | Project | Area | Where to look |
 |:--|:--|:--|
 | [CreditOne](https://github.com/zheyuliu328/algorithmic-credit-risk-engine) | Credit-scoring and data-processing prototypes | [Verified scope and remaining work](https://github.com/zheyuliu328/algorithmic-credit-risk-engine/blob/master/docs/PORTFOLIO_STATUS.md) |
-| [Financial Control Tower](https://github.com/zheyuliu328/financial-control-tower) | CSV/Excel reconciliation, field mapping, tolerances and readable reports | [Table comparison guide](https://github.com/zheyuliu328/financial-control-tower/blob/main/docs/table-comparison.md) |
+| [Financial Control Tower](https://github.com/zheyuliu328/financial-control-tower) | Local browser and CLI for CSV/Excel comparison, paired field mapping, exact-decimal tolerances and portable evidence reports | [Graphical workflow guide](https://github.com/zheyuliu328/financial-control-tower/blob/main/docs/table-ui.zh-CN.md) |
 | [Signal Foundry](https://github.com/zheyuliu328/signal-foundry) | Local-first information tooling | [Project overview](https://github.com/zheyuliu328/signal-foundry#readme) |
 
 These projects have different levels of maturity. Their status records distinguish working examples,
