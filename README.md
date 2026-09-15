@@ -9,6 +9,20 @@ MSc in Risk Management Science and Data Analytics, The Chinese University of Hon
 
 ## Start here
 
+### [Risk Practice Portfolio — browse by work scenario](https://github.com/zheyuliu328/risk-practice-portfolio)
+
+A unified map from risk questions to methods, executable tools, review evidence and learning exercises.
+It covers 12 core credit, market, counterparty, liquidity, model-governance and control scenarios,
+with explicit implementation gaps. Four new simplified examples cover expected credit loss,
+cash-flow survival, fixed-cash-flow rate shocks and exposure concentration.
+
+[Project priorities and attribution](https://github.com/zheyuliu328/risk-practice-portfolio/blob/main/catalog/PRIORITIES.md) ·
+[Scenario casebook](https://github.com/zheyuliu328/risk-practice-portfolio/blob/main/scenarios/README.md) ·
+[中文学习与面试路线](https://github.com/zheyuliu328/risk-practice-portfolio/blob/main/learning/README.zh-CN.md)
+
+The casebook distinguishes working tools, simplified learning cases and designs still to implement.
+Independent learning exercises are not presented as client engagements or proof of personal mastery.
+
 ### [Forecast Review Workbench](https://github.com/zheyuliu328/forecast-review-workbench)
 
 A local browser tool with three connected workflows: screen monthly regression candidates,
