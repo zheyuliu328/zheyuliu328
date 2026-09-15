@@ -7,70 +7,37 @@ My focus is understanding **what a model result proves, how it can fail, and how
 
 MSc in Risk Management Science and Data Analytics, The Chinese University of Hong Kong · July 2026.
 
-## Start here
+## Featured work: model review and evidence handoff
 
-### [Risk Practice Portfolio — browse by work scenario](https://github.com/zheyuliu328/risk-practice-portfolio)
+### [Forecast Review — the flagship task](https://github.com/zheyuliu328/risk-practice-portfolio/blob/main/flagship/forecast-review/README.md)
 
-A unified map from risk questions to methods, executable tools, review evidence and learning exercises.
-It covers 12 core credit, market, counterparty, liquidity, model-governance and control scenarios,
-with explicit implementation gaps. Four new simplified examples cover expected credit loss,
-cash-flow survival, fixed-cash-flow rate shocks and exposure concentration.
+A candidate appears more accurate because it omits difficult months. The review checks the input contract,
+retains missing periods, compares on an explicitly accepted common sample and hands over independently
+checked results with a bounded recommendation. The worked example includes pending, accepted and
+incompatible-unit states, plus a review memo and follow-up actions.
 
-[Project priorities and attribution](https://github.com/zheyuliu328/risk-practice-portfolio/blob/main/catalog/PRIORITIES.md) ·
-[Scenario casebook](https://github.com/zheyuliu328/risk-practice-portfolio/blob/main/scenarios/README.md) ·
+[Read the finding and action memo](https://github.com/zheyuliu328/risk-practice-portfolio/blob/main/flagship/forecast-review/REVIEW_MEMO.md) ·
+[Run the actual Workbench](https://github.com/zheyuliu328/forecast-review-workbench#open-the-tool) ·
+[Numerical foundation: Model Risk Lab](https://github.com/zheyuliu328/model-risk-lab)
+
+The Workbench's training workflow uses a version-pinned Model Risk Lab kernel. Shared calculations are
+not two independent validators. The portfolio's raw-CSV check independently recomputes the review metrics.
+This is an executable educational workflow; production adoption and independent first-time human use
+remain unverified.
+
+## Explore by purpose
+
+| Layer | What to inspect |
+| --- | --- |
+| [Specialist cases](https://github.com/zheyuliu328/risk-practice-portfolio/blob/main/specialist/README.md) | FX sensitivity challenges, ECL movement, market/collateral risk, FCT data control and negative research; each has separate scope and evidence |
+| [Learning laboratory](https://github.com/zheyuliu328/risk-practice-portfolio/blob/main/lab/README.md) | Small credit, ALM, liquidity, AML and AI-control exercises; these are learning components, not equally mature products |
+| [References and history](https://github.com/zheyuliu328/risk-practice-portfolio/blob/main/reference/README.md) | Team coursework, forks and supporting utilities with attribution |
+
+[All project placements and priorities](https://github.com/zheyuliu328/risk-practice-portfolio/blob/main/catalog/PRIORITIES.md) ·
 [中文学习与面试路线](https://github.com/zheyuliu328/risk-practice-portfolio/blob/main/learning/README.zh-CN.md)
 
-The casebook distinguishes working tools, simplified learning cases and designs still to implement.
-Independent learning exercises are not presented as client engagements or proof of personal mastery.
-
-### [Forecast Review Workbench](https://github.com/zheyuliu328/forecast-review-workbench)
-
-A local browser tool with three connected workflows: screen monthly regression candidates,
-review supplied forecasts on a common sample, and reconcile financial result rows with additive totals.
-Select your own CSV/XLSX files, map their columns, inspect failures and missing coverage,
-record your reasoning and download offline evidence.
-
-Version 0.2 retains every attempted single/pair OLS candidate and two baselines, fixes selection on
-development data before explicit holdout evaluation, and exposes reported-total errors even when
-individual rows agree. The workbench has 126 passing Python tests and real-file browser acceptance
-with independently recomputed exports. Independent human usability testing remains open.
-Source declarations and model suitability still require judgment.
-
-[Open and use the tool](https://github.com/zheyuliu328/forecast-review-workbench#open-the-tool) ·
-[See the interface and verification](https://github.com/zheyuliu328/forecast-review-workbench/blob/main/docs/VALIDATION.md) ·
-[中文使用指南](https://github.com/zheyuliu328/forecast-review-workbench/blob/main/docs/QUICKSTART.zh-CN.md)
-
-### [Model Risk Lab](https://github.com/zheyuliu328/model-risk-lab)
-
-Independent validation experiments built from public methods and fully synthetic inputs.
-
-- **Credit regression:** information availability, forward time splits, baseline comparisons and a locked holdout.
-- **FX sensitivities:** European option pricing, analytical Greeks, unit contracts and finite-difference convergence.
-- **Monthly candidate tool:** configurable observations, lag/release-delay checks, retained failures,
-  development selection, explicit holdout reveal and a standalone evidence CLI.
-- **Evidence:** runnable tests, generated reports, complete inputs and explicit limitations.
-
-[Read the experiment report](https://github.com/zheyuliu328/model-risk-lab/blob/main/docs/sample/REPORT.md) ·
-[See what the second review caught](https://github.com/zheyuliu328/model-risk-lab/blob/main/docs/REVALIDATION.md) ·
-[Read the methods](https://github.com/zheyuliu328/model-risk-lab/tree/main/docs) ·
-[Run it locally](https://github.com/zheyuliu328/model-risk-lab#run-locally)
-
-### [VaR Backtesting](https://github.com/zheyuliu328/risk-var-dashboard)
-
-A focused market-risk project: rolling forecasts use only earlier returns; coverage tests expose
-their assumptions and edge cases. A reproducible offline example accompanies the implementation.
-
-## Earlier projects, with current status
-
-| Project | Area | Where to look |
-|:--|:--|:--|
-| [CreditOne](https://github.com/zheyuliu328/algorithmic-credit-risk-engine) | Credit-scoring and data-processing prototypes | [Verified scope and remaining work](https://github.com/zheyuliu328/algorithmic-credit-risk-engine/blob/master/docs/PORTFOLIO_STATUS.md) |
-| [Financial Control Tower](https://github.com/zheyuliu328/financial-control-tower) | Local browser and CLI for CSV/Excel comparison, paired field mapping, exact-decimal tolerances and portable evidence reports | [Graphical workflow guide](https://github.com/zheyuliu328/financial-control-tower/blob/main/docs/table-ui.zh-CN.md) |
-| [Signal Foundry](https://github.com/zheyuliu328/signal-foundry) | Local-first information tooling | [Project overview](https://github.com/zheyuliu328/signal-foundry#readme) |
-
-These projects have different levels of maturity. Their status records distinguish working examples,
-incomplete features and future designs. Forked repositories in this account are learning references
-and are not presented here as original implementations.
+The portfolio connects tasks and evidence while keeping project models, interfaces and release cycles separate.
+Independent studies are not presented as client engagements or proof of personal mastery.
 
 ## How I work
 
