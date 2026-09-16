@@ -2,10 +2,19 @@
 
 ### Model validation · Credit and market risk · Reproducible analytics
 
-I build local tools and inspectable experiments that connect financial theory, data quality and software testing.
+I build browser tools, local utilities and inspectable experiments that connect financial theory, data quality and software testing.
 My focus is understanding **what a model result proves, how it can fail, and how to reproduce it**.
 
 MSc in Risk Management Science and Data Analytics, The Chinese University of Hong Kong · July 2026.
+
+## Open a tool
+
+| Your task | Browser tool | Result |
+| --- | --- | --- |
+| Compare actuals and forecasts on the same sample | [Forecast review](https://forecast-review-zheyuliu.mystic-pear-2111.chatgpt.site) | Errors, excluded periods and a downloadable review |
+| Check differences between two CSV/Excel tables | [Table check](https://table-check-zheyuliu.mystic-pear-2111.chatgpt.site) | Differences, missing records, duplicates and exports |
+
+No installation or account is required. Selected files are processed in the browser; both tools include invented examples. [Current status and remaining gaps](https://github.com/zheyuliu328/risk-practice-portfolio/blob/main/catalog/RELEASE_STATUS.zh-CN.md) distinguish these public tools from local experiments and unfinished prototypes. Independent human first use and repeat use remain unverified.
 
 ## Featured case · The model ranking reversed
 
@@ -20,7 +29,7 @@ a common sample, compare errors, record a reason and export offline evidence.
 
 [**Explore the case →**](https://github.com/zheyuliu328/risk-practice-portfolio/blob/main/flagship/forecast-review/README.md) ·
 [Read the review memo](https://github.com/zheyuliu328/risk-practice-portfolio/blob/main/flagship/forecast-review/REVIEW_MEMO.md) ·
-[Run the Workbench](https://github.com/zheyuliu328/forecast-review-workbench#open-the-tool)
+[Open the Workbench](https://forecast-review-zheyuliu.mystic-pear-2111.chatgpt.site)
 
 ## More work you can inspect or use
 
