@@ -7,37 +7,34 @@ My focus is understanding **what a model result proves, how it can fail, and how
 
 MSc in Risk Management Science and Data Analytics, The Chinese University of Hong Kong · July 2026.
 
-## Featured work: model review and evidence handoff
+## Featured case · The model ranking reversed
 
-### [Forecast Review — the flagship task](https://github.com/zheyuliu328/risk-practice-portfolio/blob/main/flagship/forecast-review/README.md)
+Candidate A looked more accurate: **MAE 1.56 vs 4.30**. But it omitted different months.
+Comparing the same seven months changed the result: **A 2, B 1**. The conclusion was to request
+missing coverage and forecast-vintage evidence, not automatically approve B.
 
-A candidate appears more accurate because it omits difficult months. The review checks the input contract,
-retains missing periods, compares on an explicitly accepted common sample and hands over independently
-checked results with a bounded recommendation. The worked example includes pending, accepted and
-incompatible-unit states, plus a review memo and follow-up actions.
+[![Different evaluation samples favor A; the same seven months favor B. Invented teaching data.](https://raw.githubusercontent.com/zheyuliu328/risk-practice-portfolio/main/assets/forecast-ranking.png)](https://github.com/zheyuliu328/risk-practice-portfolio/blob/main/flagship/forecast-review/README.md)
 
-[Read the finding and action memo](https://github.com/zheyuliu328/risk-practice-portfolio/blob/main/flagship/forecast-review/REVIEW_MEMO.md) ·
-[Run the actual Workbench](https://github.com/zheyuliu328/forecast-review-workbench#open-the-tool) ·
-[Numerical foundation: Model Risk Lab](https://github.com/zheyuliu328/model-risk-lab)
+**What you can run:** import actuals and forecast CSV/Excel files, inspect coverage, explicitly accept
+a common sample, compare errors, record a reason and export offline evidence.
 
-The Workbench's training workflow uses a version-pinned Model Risk Lab kernel. Shared calculations are
-not two independent validators. The portfolio's raw-CSV check independently recomputes the review metrics.
-This is an executable educational workflow; production adoption and independent first-time human use
-remain unverified.
+[**Explore the case →**](https://github.com/zheyuliu328/risk-practice-portfolio/blob/main/flagship/forecast-review/README.md) ·
+[Read the review memo](https://github.com/zheyuliu328/risk-practice-portfolio/blob/main/flagship/forecast-review/REVIEW_MEMO.md) ·
+[Run the Workbench](https://github.com/zheyuliu328/forecast-review-workbench#open-the-tool)
 
-## Explore by purpose
+## More work you can inspect or use
 
-| Layer | What to inspect |
-| --- | --- |
-| [Specialist cases](https://github.com/zheyuliu328/risk-practice-portfolio/blob/main/specialist/README.md) | FX sensitivity challenges, ECL movement, market/collateral risk, FCT data control and negative research; each has separate scope and evidence |
-| [Learning laboratory](https://github.com/zheyuliu328/risk-practice-portfolio/blob/main/lab/README.md) | Small credit, ALM, liquidity, AML and AI-control exercises; these are learning components, not equally mature products |
-| [References and history](https://github.com/zheyuliu328/risk-practice-portfolio/blob/main/reference/README.md) | Team coursework, forks and supporting utilities with attribution |
+| Work question | Executable work | Evidence to inspect |
+| --- | --- | --- |
+| Can equal totals hide errors? | [Financial Control Tower](https://table-check-zheyuliu.mystic-pear-2111.chatgpt.site): compare CSV/Excel records | Missing keys, duplicates and numeric exceptions |
+| Prices agree; do the Greeks? | [Model Risk Lab](https://github.com/zheyuliu328/model-risk-lab): analytical/finite-difference challenges | Unit conventions, bump sensitivity and retained failures |
+| Why did the loss estimate rise? | [ECL movement case](https://github.com/zheyuliu328/risk-practice-portfolio/blob/main/examples/ecl-movement.json): fixed-order parameter bridge | Reconciled movement, assumptions and limits |
+| Does collateral mean available cash? | [Margin stress case](https://github.com/zheyuliu328/risk-practice-portfolio/blob/main/examples/broker-margin.json): haircut and liquidity stress | Required calls versus realizable cash |
 
-[All project placements and priorities](https://github.com/zheyuliu328/risk-practice-portfolio/blob/main/catalog/PRIORITIES.md) ·
-[中文学习与面试路线](https://github.com/zheyuliu328/risk-practice-portfolio/blob/main/learning/README.zh-CN.md)
-
-The portfolio connects tasks and evidence while keeping project models, interfaces and release cycles separate.
-Independent studies are not presented as client engagements or proof of personal mastery.
+[**Full portfolio**](https://github.com/zheyuliu328/risk-practice-portfolio) ·
+[Learning laboratory](https://github.com/zheyuliu328/risk-practice-portfolio/blob/main/lab/README.md) ·
+[中文学习与面试路线](https://github.com/zheyuliu328/risk-practice-portfolio/blob/main/learning/README.zh-CN.md) ·
+[References and attribution](https://github.com/zheyuliu328/risk-practice-portfolio/blob/main/reference/README.md)
 
 ## How I work
 
